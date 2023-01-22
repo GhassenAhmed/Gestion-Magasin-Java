@@ -10,9 +10,5 @@ public class ProduitsoldeInterface implements ProductInterface {
 		System.out.println(" designation :"+designation+" ----prix :"+prix+" ---quantite :"+quantite);	
 	}
 	@Override
-	public float calcul() {
-		
-		return this.prix*(1+(this.taux/100)*this.quantite);
-	}
 	
 }
