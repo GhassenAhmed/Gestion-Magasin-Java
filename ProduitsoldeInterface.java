@@ -6,7 +6,9 @@ public class ProduitsoldeInterface implements ProductInterface {
 	private int quantite;
 	private int taux;
 	@Override
-	
+	public void affiche() {
+		System.out.println(" designation :"+designation+" ----prix :"+prix+" ---quantite :"+quantite);	
+	}
 	@Override
 	public float calcul() {
 		
