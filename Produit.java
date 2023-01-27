@@ -19,7 +19,5 @@ public abstract class  Produit implements Magasin {
 	public float getquantite() {
 		return quantite;
 	}
-	public String getdesignation() {
-		return designation;
-	}
+	
 }
