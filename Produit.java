@@ -9,9 +9,7 @@ public abstract class  Produit implements Magasin {
 		prix=p;
 		quantite=q;
 	}
-	public void affiche() {
-		System.out.println(" designation :"+designation+" ----prix :"+prix+" ---quantite :"+quantite);
-	}
+	
 	public float getprix() {
 		return prix;
 	}
