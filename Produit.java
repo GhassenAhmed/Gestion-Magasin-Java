@@ -12,9 +12,7 @@ public abstract class  Produit implements Magasin {
 	public void affiche() {
 		System.out.println(" designation :"+designation+" ----prix :"+prix+" ---quantite :"+quantite);
 	}
-	public float getprix() {
-		return prix;
-	}
+	
 	public float getquantite() {
 		return quantite;
 	}
